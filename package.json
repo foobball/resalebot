@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "superagent": "^8.0.2"
+  },
+  "name": "resalebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foobball/resalebot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foobball/resalebot/issues"
+  },
+  "homepage": "https://github.com/foobball/resalebot#readme",
+  "description": ""
+}

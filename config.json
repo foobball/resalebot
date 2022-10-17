@@ -1,0 +1,9 @@
+{
+    "cookie": "...",
+    "blacklist": [
+        151784526
+    ],
+    "minimum robux profit": 5,
+
+    "webhook": "https://discord.com/api/webhooks/..."
+}

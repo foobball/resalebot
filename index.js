@@ -246,6 +246,7 @@ const main = async () => {
         for (const itemId in idSortedInventory) {
             const ollieDetails = ollieData[itemId];
             const projectedDetails = projecteds[itemId];
+            if (!ollieDetails || !projectedDetails) continue;
             const uaids = idSortedInventory[itemId];
             const value = Math.min(projectedDetails.rap, projectedDetails.adjustedRap)
             const priceMinimum = minimums[itemId] || value;
